@@ -1,0 +1,20 @@
+Desempenho
+
+Ada: 3.3
+
+P1T: 8.3
+P1P: 10
+
+P2T: 4.3
+P2P: 7
+
+P3T: ~5
+P3P: ~5
+
+Atividades Práticas: 11
+		    ~16
+
+Fator Quiz: 69%
+
+Total: 44 de 65
+      ~59
