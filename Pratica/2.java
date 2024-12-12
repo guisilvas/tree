@@ -88,20 +88,3 @@ public class Doidona {
 
 // --------------------------------------------------------------------------------------
 
-// Inserir
-// Método recursivo para inserir o nó na árvore binária
-    No inserirNo(char letra, No noAtual) {
-        if (noAtual == null) {
-            noAtual = new No(letra);  // Cria o nó caso ele não exista
-        }
-
-        // Inserir recursivamente à esquerda ou à direita
-        if (letra < noAtual.letra) {
-            noAtual.esquerda = inserirNo(letra, noAtual.esquerda);
-        } else if (letra > noAtual.letra) {
-            noAtual.direita = inserirNo(letra, noAtual.direita);
-        }
-
-        return noAtual;
-    }
-
